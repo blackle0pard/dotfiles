@@ -1,0 +1,35 @@
+{                                                                   // https://code.visualstudio.com/docs/getstarted/settings
+    "breadcrumbs.enabled": true,                                    // Enable/disable navigation breadcrumbs.
+    "editor.fontFamily": "Hack,'Source Han Sans'",                  // Controls the font family.
+    "editor.fontSize": 14,                                          // Controls the font size in pixels.
+    "editor.formatOnPaste": false,                                  // Controls whether the editor should automatically format the pasted content. A formatter must be available and the formatter should be able to format a range in a document.
+    "editor.formatOnSave": false,                                   // Format a file on save. A formatter must be available, the file must not be saved after delay, and the editor must not be shutting down.
+    "editor.formatOnType": false,                                   // Controls whether the editor should automatically format the line after typing.
+    "editor.lineNumbers": "on",                                     // Controls the display of line numbers.
+    "editor.minimap.enabled": false,                                // Controls whether the minimap is shown.
+    "editor.renderWhitespace": "all",                               // Controls how the editor should render whitespace characters.
+    "editor.scrollBeyondLastLine": true,                            // Controls whether the editor will scroll beyond the last line.
+    "editor.tabSize": 4,                                            // The number of spaces a tab is equal to.
+    "editor.wordWrap": "off",                                       // Controls how lines should wrap.
+    "extensions.autoUpdate": true,                                  // Controls the automatic update behavior of extensions. The updates are fetched from a Microsoft online service.
+    "extensions.ignoreRecommendations": true,                       // When enabled, the notifications for extension recommendations will not be shown.
+    "files.autoGuessEncoding": true,                                // When enabled, the editor will attempt to guess the character set encoding when opening files. 
+    "files.autoSave": "off",                                        // Controls auto save of editors that have unsaved changes.
+    "files.encoding": "utf8",                                       // The default character set encoding to use when reading and writing files
+    "files.eol": "\n",                                              // The default end of line character. - \n: LF
+    "files.insertFinalNewline": true,                               // When enabled, insert a final new line at the end of the file when saving it.
+    "files.trimFinalNewlines": true,                                // When enabled, will trim all new lines after the final new line at the end of the file when saving it.
+    "html.format.wrapLineLength": 0,                                // Maximum amount of characters per line (0 = disable).
+    "markdown.preview.fontFamily": "Hack,'Source Han Sans'",        // 
+    "markdown.preview.fontSize": 14,                                // 
+    "update.showReleaseNotes": false,                               // 
+    "workbench.startupEditor": "none",                              // 
+    "workbench.colorCustomizations": {                              // 
+        "tab.activeForeground": "#ffffff",                          // 
+        "tab.activeBorderTop": "#ffffff",                           // 
+        "tab.activeBorder": "#ffffff"                               // 
+    },
+    "workbench.settings.editor": "json",                            // 
+    "workbench.colorTheme": "Visual Studio Dark",                   // 
+    "security.workspace.trust.untrustedFiles": "open",              // 
+}
